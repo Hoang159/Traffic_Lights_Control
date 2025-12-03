@@ -1,15 +1,10 @@
-# AI-Traffic-Lights-Controller
-
-The project uses reinforcement learning and genetic algorithms to improve traffic flow and reduce vehicle waiting times in a single-lane two-way junction simulator by coordinating traffic signal schedules. 
-
-[A complete 7-page project report is available  here](https://github.com/yossidoctor/AI-Traffic-Lights-Controller/blob/main/Traffic%20Control%20With%20AI%20-%20Project%20Report.pdf).
-
+# Traffic-Lights-Control
 
 ## Installation
 
 ```bash
-git clone https://github.com/yossidoctor/AI-Traffic-Lights-Controller.git
-cd AI-Traffic-Lights-Controller
+git clone https://github.com/Hoang159/Traffic_Lights_Control.git
+cd Traffic-Lights-Control
 pip install -r requirements.txt
 ```
 
@@ -20,7 +15,7 @@ pip install -r requirements.txt
 python main.py -m [method] -e [number of episodes] -r
 ```
 
-- -m or --method: specifies which method to use for the traffic light controller. The available methods are 'fc', 'lqf', 'qlearning', and 'search'.
+- -m or --method: specifies which method to use for the traffic light controller. The available methods are 'fc', 'lqf', 'plqf'.
 - -e or --episodes: specifies the number of evaluation episodes to run.
 - -r or --render: optional flag - displays the simulation window if included.
     
